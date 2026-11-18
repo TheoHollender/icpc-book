@@ -8,7 +8,10 @@ using namespace std;
 typedef long long ll;
 typedef pair<int, int> pii;
 typedef vector<int> vi;
-void solve () {}
+
+void solve () {
+    int N; cin >> N; cout << N + 1 << "\n";
+}
 signed main () {
     ios_base::sync_with_stdio(false); cin.tie(NULL);
     int T = 1; if (MULTITEST) cin >> T;
